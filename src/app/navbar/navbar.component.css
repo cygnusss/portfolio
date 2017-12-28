@@ -1,0 +1,32 @@
+.navbar_container {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  height: 75px;
+  background-color: #f9f9f9;
+}
+
+.navbar_container li {
+  align-self: center;
+  font-size: 16px;
+}
+
+.navbar_container li a {
+  color: grey;
+  text-decoration: none;
+}
+
+.home_img img {
+  align: center;
+  width: 50px;
+}
+
+.navbar_option {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 150px;
+}
+
+.the_sun_symbol {
+  font-size: 45px;
+}
