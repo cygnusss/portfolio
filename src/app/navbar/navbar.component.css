@@ -3,7 +3,7 @@
   justify-content: space-evenly;
   list-style-type: none;
   height: 75px;
-  background-color: #f9f9f9;
+  background-color: white;
 }
 
 .navbar_container li {
@@ -23,7 +23,7 @@
 
 .navbar_option {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Overpass', sans-serif;
   width: 150px;
 }
 

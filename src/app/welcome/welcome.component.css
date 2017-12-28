@@ -22,8 +22,8 @@
 }
 
 .welcome_info {
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-family: 'Oswald', sans-serif;
 }
 
 .welcome_text {
@@ -35,9 +35,9 @@
 
 .blinking-cursor {
   display: inline;
+  font-family: 'Oswald', sans-serif;
   font-weight: 100;
   font-size: 20px;
-  color: #2E3D48;
   animation: 1s blink step-end infinite;
   
 }
@@ -47,6 +47,6 @@
     color: transparent;
   }
   50% {
-    color: black;
+    color: white;
   }
 }
