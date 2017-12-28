@@ -1,12 +1,4 @@
 .body_grid {
   display: grid;
-  grid-template-rows: 650px 650px;
-}
-
-.body_grid div:nth-child(even) {
-  background-color: #f9f9f9;;
-}
-
-.body_grid div:nth-child(odd) {
-  background-color: #777777;
+  grid-template-rows: 650px 725px;
 }

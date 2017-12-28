@@ -1,8 +1,10 @@
 .welcome_container {
   height: 100%;
   display: flex;
+  position: relative;
   justify-content: center; 
   width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1504&q=80");
 }
 
 .welcome_info_container {
@@ -12,25 +14,8 @@
 }
 
 .welcome_info {
-  display: flex;
-  flex-direction: row;
-}
-
-.welcome_info > img {
-  width: auto;
-  height: 75px;
-}
-
-.welcome_info {
-  color: white;
+  color: black;
   font-family: 'Oswald', sans-serif;
-}
-
-.welcome_text {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-left: 15px;
 }
 
 .blinking-cursor {
@@ -47,6 +32,6 @@
     color: transparent;
   }
   50% {
-    color: white;
+    color: grey;
   }
 }
