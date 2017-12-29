@@ -1,4 +1,9 @@
 .body_grid {
   display: grid;
-  grid-template-rows: 650px 725px;
+  grid-template-rows: 650px 50px 350px 350px;
+}
+
+.portfolio_title {
+  display: flex;
+  justify-content: center;
 }

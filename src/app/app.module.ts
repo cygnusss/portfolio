@@ -5,12 +5,16 @@ import { RouterModule } from '@angular/router'
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component'
 import { WelcomeComponent } from './welcome/welcome.component'
+import { ChattermonComponent } from './chattermon/chattermon.component'
+import { MarsklifComponent } from './marsklif/marsklif.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    ChattermonComponent,
+    MarsklifComponent
   ],
   imports: [
     BrowserModule
