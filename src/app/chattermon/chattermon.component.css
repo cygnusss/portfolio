@@ -1,28 +1,28 @@
-.main_marsklif {
+.main_chattermon {
   height: 100%;
 }
 
-.marsklif_grid {
+.chattermon_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-#marsklif {
+#chattermon {
   width: 450px;
 }
 
-.marsklif_left {
+.chattermon_left {
   width: 450px;
   padding-top: 50px;
   padding-left: 150px;
 }
 
-.marsklif_left a {
+.chattermon_left a {
   text-decoration: none;
   color: black;
 }
 
-.marsklif_right {
+.chattermon_right {
   font-family: 'Cormorant Garamond', serif;
   padding-top: 85px;
   padding-right: 150px;
@@ -32,19 +32,19 @@
   grid-template-rows: 1fr 1fr;
 }
 
-.marsklif_right_links a {
+.chattermon_right_links a {
   text-decoration: none;
   color: black;
   font-family: 'Mukta Mahee', sans-serif;
   font-size: 11px;
 }
 
-.marsklif_ds {
+.chattermon_ds {
   font-size: 12px;
   font-family: 'Work Sans', sans-serif;
 }
 
-.marsklif_ds01 {
+.chattermon_ds01 {
   color: grey;
   font-size: 12px;
   font-family: 'Work Sans', sans-serif;

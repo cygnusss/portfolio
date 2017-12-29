@@ -1,9 +1,13 @@
 .body_grid {
   display: grid;
-  grid-template-rows: 650px 50px 350px 350px;
+  grid-template-rows: 650px 50px 350px 425px 50px;
 }
 
 .portfolio_title {
   display: flex;
   justify-content: center;
+}
+
+#s05 {
+  background-color: red;
 }
