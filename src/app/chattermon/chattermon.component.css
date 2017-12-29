@@ -1,0 +1,51 @@
+.main_chattermon {
+  height: 100%;
+}
+
+.chattermon_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#chattermon {
+  width: 450px;
+}
+
+.chattermon_left {
+  width: 450px;
+  padding-top: 50px;
+  padding-left: 150px;
+}
+
+.chattermon_left a {
+  text-decoration: none;
+  color: black;
+}
+
+.chattermon_right {
+  font-family: 'Cormorant Garamond', serif;
+  padding-top: 85px;
+  padding-right: 150px;
+  height: 245px;
+  width: 400px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.chattermon_right_links a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 11px;
+}
+
+.chattermon_ds {
+  font-size: 12px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.chattermon_ds01 {
+  color: grey;
+  font-size: 12px;
+  font-family: 'Work Sans', sans-serif;
+}
