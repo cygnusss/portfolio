@@ -1,13 +1,21 @@
 .body_grid {
   display: grid;
-  grid-template-rows: 650px 50px 350px 425px 50px;
+  grid-template-rows: 650px 45px 350px 425px 45px 500px;
 }
 
-.portfolio_title {
+.main_page_titling {
   display: flex;
   justify-content: center;
 }
 
 #s05 {
-  background-color: red;
+  background-color: black;
+}
+
+#s05 h1 {
+  color: white;
+}
+
+#s06 {
+  background-color: black;
 }
