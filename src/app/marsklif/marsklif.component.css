@@ -13,7 +13,7 @@
 
 .marsklif_left {
   width: 450px;
-  padding-left: 150px;
+  padding-left: 9rem;
   padding-top: 50px;
   justify-self: center;
 }
@@ -31,7 +31,7 @@
   font-family: 'Cormorant Garamond', serif;
   justify-self: center;
   padding-top: 95px;
-  padding-right: 150px;
+  padding-right: 9rem;
   height: 245px;
   width: 450px;
   display: grid;
