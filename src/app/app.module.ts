@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component'
 import { WelcomeComponent } from './welcome/welcome.component'
 import { ChattermonComponent } from './chattermon/chattermon.component'
 import { MarsklifComponent } from './marsklif/marsklif.component'
+import { AboutComponent } from './about/about.component'
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MarsklifComponent } from './marsklif/marsklif.component'
     NavbarComponent,
     WelcomeComponent,
     ChattermonComponent,
-    MarsklifComponent
+    MarsklifComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,46 @@
+.about_grid {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about_grid h1 {
+  color: white;
+}
+
+.about_grid p {
+  color: white;
+}
+
+.photo_flex_box {
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+}
+
+.photo_flex_box img {
+  width: 400px;
+  height: auto;
+}
+
+.me_info {
+  display: grid;
+  grid-template-columns: 120px 450px;
+  grid-template-rows: 100px 100px 100px;
+}
+
+.me_info_columns p {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+}
+
+.me_info_text {
+  width: 400px;
+}
+
+.me_info_text p {
+  font-family: 'Khula', sans-serif;
+  color: grey;
+  font-size: 14px;
+}

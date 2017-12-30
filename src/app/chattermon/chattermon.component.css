@@ -13,8 +13,9 @@
 
 .chattermon_left {
   width: 450px;
-  padding-top: 50px;
   padding-left: 150px;
+  padding-top: 50px;
+  justify-self: center;
 }
 
 .chattermon_left a {
@@ -24,10 +25,11 @@
 
 .chattermon_right {
   font-family: 'Cormorant Garamond', serif;
-  padding-top: 85px;
+  justify-self: center;
+  padding-top: 95px;
   padding-right: 150px;
   height: 245px;
-  width: 400px;
+  width: 450px;
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
