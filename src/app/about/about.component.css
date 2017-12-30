@@ -26,7 +26,7 @@
 .me_info {
   display: grid;
   grid-template-columns: 120px 450px;
-  grid-template-rows: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 50px;
 }
 
 .me_info_columns p {
@@ -43,4 +43,19 @@
   font-family: 'Khula', sans-serif;
   color: grey;
   font-size: 14px;
+}
+
+.me_info_links {
+  display: flex;
+  width: 450px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.me_info_links a {
+  padding-right: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 11px;
 }
