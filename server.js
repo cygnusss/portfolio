@@ -9,5 +9,3 @@ app.listen(process.env.PORT || 8080)
 app.get('*', (req, resp) => {
   resp.sendFile(path.join(__dirname, '/dist/index.html'))
 })
-
-console.log('listening on port')
