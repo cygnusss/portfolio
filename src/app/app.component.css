@@ -15,3 +15,10 @@
 h1 {
   color: grey;
 }
+
+@media (max-width: 500px){
+  .body_grid {
+    display: grid;
+    grid-template-rows: 650px 55px 600px 650px 45px 150px;
+  }
+}
