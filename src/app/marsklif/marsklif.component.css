@@ -3,8 +3,9 @@
 }
 
 .marsklif_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #marsklif {
@@ -13,8 +14,7 @@
 
 .marsklif_left {
   width: 450px;
-  padding-left: 9rem;
-  padding-top: 50px;
+  padding-right: 1rem;
   justify-self: center;
 }
 
@@ -30,8 +30,8 @@
 .marsklif_right {
   font-family: 'Cormorant Garamond', serif;
   justify-self: center;
-  padding-top: 95px;
-  padding-right: 9rem;
+  padding-top: 2.8rem;
+  padding-left: 1rem;
   height: 245px;
   width: 450px;
   display: grid;

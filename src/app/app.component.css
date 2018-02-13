@@ -1,6 +1,6 @@
 .body_grid {
   display: grid;
-  grid-template-rows: 650px 45px 350px 425px 45px 500px;
+  grid-template-rows: 650px 55px 300px 350px 45px 150px;
 }
 
 .main_page_titling {
@@ -9,13 +9,9 @@
 }
 
 #s05 {
-  background-color: black;
+  padding-top: 2rem;
 }
 
-#s05 h1 {
-  color: white;
-}
-
-#s06 {
-  background-color: black;
+h1 {
+  color: grey;
 }
