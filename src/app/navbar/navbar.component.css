@@ -30,3 +30,10 @@
 .the_sun_symbol {
   font-size: 45px;
 }
+
+@media (max-width: 500px){
+  .navbar_container {
+    visibility: collapse;
+    height: 0;
+  }
+}
